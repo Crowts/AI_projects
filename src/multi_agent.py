@@ -1,5 +1,5 @@
 import os
-from utils import get_openai_api_key
+from utils.utils import get_openai_api_key
 from langchain_openai import ChatOpenAI
 from langchain_ollama import ChatOllama
 from langchain_community.utilities import GoogleSerperAPIWrapper
