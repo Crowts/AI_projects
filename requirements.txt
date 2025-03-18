@@ -1,0 +1,8 @@
+pytest
+langchain
+langgraph
+langchain_ollama
+langgraph.prebuilt
+langgraph_supervisor
+langchain_openai
+langchain_community

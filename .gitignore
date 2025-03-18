@@ -1,0 +1,9 @@
+.env
+__pycache__/
+.vscode/*
+.DS_Store
+.pytest_cache/
+.ipynb_checkpoints/
+*.pyc
+.venv/
+/spark-warehouse
