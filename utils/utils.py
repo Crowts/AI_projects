@@ -10,7 +10,7 @@ def load_env():
         None.
     
     Returns:
-    ---------------
+    --------------
         None.
     """
     _ = load_dotenv(find_dotenv())

@@ -20,7 +20,7 @@ LANGSMITH_ENDPOINT = os.environ["LANGSMITH_ENDPOINT"]
 LANGSMITH_API_KEY = os.environ["LANGSMITH_API_KEY"]
 LANGSMITH_PROJECT = os.environ["LANGSMITH_PROJECT"]
 
-local_llm = "llama3.2" #llama3.2 - qwen2.5:7b
+local_llm = "llama3.2" #qwen2.5:7b
 Model = ChatOllama(model=local_llm, temperature=0.0)
 remote_model = ChatOpenAI(model="gpt-4o-mini")
 
